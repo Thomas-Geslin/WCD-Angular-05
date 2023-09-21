@@ -1,0 +1,29 @@
+.input-field {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+label {
+    top: -10px;
+    left: -10px;
+}
+
+.error-field {
+    width: 25%;
+    border: red solid 2px;
+    border-radius: 6px;
+    background-color: rgb(230, 162, 162);
+    color: red;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+form {
+    margin: 5%;
+    margin-top: 2%;
+}
+
+button {
+    margin-right: 20px;
+}
