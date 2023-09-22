@@ -1,7 +1,7 @@
 <form class="col s12" #myForm="ngForm" (ngSubmit)="myForm.valid && onSubmit()">
     <fieldset class="input-field">
       <label for="email-user">Email</label>
-      <input id="email-user" name="email-user" type="email" [(ngModel)]="model.email" #email="ngModel" required>
+      <input id="email-user" name="email-user" type="email" [(ngModel)]="model.email" #email="ngModel" required email>
     </fieldset>
 
     <div class="error-field" *ngIf="myForm.submitted && email.errors">
